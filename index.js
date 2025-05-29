@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
-import viewBoxRouter from './router/viewBox-router.js';
-import banco from './database/sequelize.js';
+import viewBoxRouter from './back-end/router/viewBox-router.js';
+import banco from './back-end/database/sequelize.js';
 
 const app = express();
 const port = 3000;
