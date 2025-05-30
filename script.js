@@ -71,7 +71,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const pathEstado = document.createElementNS("http://www.w3.org/2000/svg", "path");
     pathEstado.setAttribute("d", data.path_estado);
     pathEstado.setAttribute("fill", "#9ebdff");
-
     pathEstado.setAttribute("stroke-width", "0.5");
 
     // Caminho do município 
