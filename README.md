@@ -28,9 +28,12 @@ Este projeto permite ao usuário selecionar um estado e município do Brasil par
 1. **QGIS Instalado** (para manipular os arquivos vetoriais).
 2. **PostgreSQL com a extensão PostGIS ativada**.
 3. Banco de dados populado com os arquivos vetoriais (importados via QGIS).
-4. Função SQL `getViewBox(estado TEXT, municipio TEXT)` criada no banco de dados PostgreSQL, que retorna os seguintes dados:
+4. Tem uma função SQL criada no banco de dados PostgreSQL, que retorna os seguintes dados:
    - `viewBox`: limites geográficos
    - `path_estado`: geometria do estado em SVG
    - `path_municipio`: geometria do município em SVG
+5. **Node.js e npm** – Ambiente de execução JavaScript e gerenciador de pacotes.
+6. **Git** – Utilizado para clonar o repositório do projeto (opcional, mas recomendado).
+
 
 ---
