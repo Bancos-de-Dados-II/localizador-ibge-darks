@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localizador IBGE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Localizador IBGE</h1>
+    <div class="secao">
+        <div id="estado-label">
+            <label for="estado">
+                <h5>Selecione um estado:</h5>
+            </label>
+        </div>
+        <select id="estado">
+            <option value="">-- Escolha um Estado --</option>
+        </select>
+    </div>
+    <div>
+        <div id="municipio-label">
+            <label for="municipio">
+                <h5>Selecione um Município</h5>
+            </label>
+        </div>
+        <select id="municipio" disabled>
+            <option value="">-- Escolha um município --</option>
+        </select>
+    </div>
+
+    <div id="resultado">
+        <p>Estado: --- | Município: ---</p>
+        <div id="mapa">Mapa do município aparecerá aqui</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
